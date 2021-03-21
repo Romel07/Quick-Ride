@@ -31,12 +31,12 @@ const Login = () => {
                 history.replace(from);
             }).catch((error) => {
                 // Handle Errors here.
-                var errorCode = error.code;
-                var errorMessage = error.message;
+                let errorCode = error.code;
+                let errorMessage = error.message;
                 // The email of the user's account used.
-                var email = error.email;
+                let email = error.email;
                 // The firebase.auth.AuthCredential type that was used.
-                var credential = error.credential;
+                let credential = error.credential;
                 // ...
             });
     }
@@ -73,8 +73,8 @@ const Login = () => {
                     updateUserName(user.name)
                 })
                 .catch((error) => {
-                    var errorCode = error.code;
-                    var errorMessage = error.message;
+                    const errorCode = error.code;
+                    const errorMessage = error.message;
                     console.log(errorCode, errorMessage)
                 });
         }
@@ -86,14 +86,14 @@ const Login = () => {
 
                 })
                 .catch((error) => {
-                    var errorCode = error.code;
-                    var errorMessage = error.message;
+                    const errorCode = error.code;
+                    const errorMessage = error.message;
                 });
         }
         event.preventDefault();
     }
     const updateUserName = (name) => {
-        var user = firebase.auth().currentUser;
+        const user = firebase.auth().currentUser;
 
         user.updateProfile({
           displayName: name,

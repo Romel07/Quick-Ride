@@ -1,0 +1,21 @@
+[{
+    "id": 1,
+    "vehicle": "Bike",
+    "Fare": 93,
+    "image": "https://cdn.zeebiz.com/sites/default/files/styles/zeebiz_850x478/public/2018/05/12/38013-vulcan-s.jpg?itok=VW_EtUH8"
+  }, {
+    "id": 2,
+    "vehicle": "Car",
+    "Fare": 80,
+    "image": "https://imgd.aeplcdn.com/0x0/n/cw/ec/41197/hyundai-verna-right-front-three-quarter7.jpeg"
+  }, {
+    "id": 3,
+    "vehicle": "Bus",
+    "Fare": 57,
+    "image": "https://www.uttaramotorsltd.com/wp-content/uploads/2015/12/LT-Bus.png"
+  }, {
+    "id": 4,
+    "vehicle": "Train",
+    "Fare": 105,
+    "image": "https://media.kasperskydaily.com/wp-content/uploads/sites/92/2015/12/06023356/train-hack-featured-1.jpg"
+  }]

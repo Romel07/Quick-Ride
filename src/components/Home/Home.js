@@ -8,7 +8,6 @@ const Home = () => {
     const [ridingData, setRidingData] = useState([]);
     useEffect(() => {
         setRidingData(rideData);
-        console.log(rideData)
     }, [])
     return (
         <div>

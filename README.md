@@ -8,8 +8,9 @@
 
 This website is a ride fare processing website. By using this application a person can hire a bus, car, train or bike. Here for for conformation of fare, require google authentication. After login one can book his ticket as per his selected Date. 
 
-#### React with private routing.
-#### Email verification login along with Bootstrap library.
+#### Used Technology
+##### React with private routing.
+##### Firebase Google authentication along with Bootstrap library.
 
 
 #### Author
